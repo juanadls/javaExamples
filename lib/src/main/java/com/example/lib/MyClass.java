@@ -24,12 +24,23 @@ public class MyClass {
         char myChar = (char) (myInt + 'a');
 
 
-
-
         //Arithmetic Operators + - * / %(modulus operator, gives you the leftover of the operation)
 
         //Comparison operators == != > < >= =<
 
         //Logic operators && || !
+
+
+        //Strings are objets
+        String sayHello = "Hello";
+        System.out.println(sayHello);
+
+        //Concatenation of strings
+        String myFriends = "My friends";
+        System.out.println( sayHello + myFriends);
+
     }
 }
+
+
+
