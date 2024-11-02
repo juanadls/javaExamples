@@ -64,6 +64,26 @@ public class MyClass {
             default:
                 System.out.println("Default value");
         }
+
+        //While loop
+        int number = 1;
+
+        while (number <= 5 ){
+            //Code to be executed repeatedly
+            // as long as the condition is true
+            System.out.println(number);
+            number++;
+
+        }
+
+        //For loop
+        for (int i = 1; i <= 5; i ++ ){
+            //Code to be executed repeatedly a finite times
+
+            System.out.println(i);
+
+        }
+
     }
 }
 
