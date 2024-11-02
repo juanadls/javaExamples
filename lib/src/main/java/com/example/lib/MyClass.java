@@ -22,5 +22,14 @@ public class MyClass {
 
         int myInt = 5;
         char myChar = (char) (myInt + 'a');
+
+
+
+
+        //Arithmetic Operators + - * / %(modulus operator, gives you the leftover of the operation)
+
+        //Comparison operators == != > < >= =<
+
+        //Logic operators && || !
     }
 }
