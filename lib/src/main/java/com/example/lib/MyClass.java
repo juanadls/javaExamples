@@ -100,6 +100,21 @@ public class MyClass {
             System.out.println(i);
         }
 
+        // Arrays are used to store multiple values of the same data type in a single variable.
+        // are index by index.
+        // Structure:
+        // dataType [] arrayName = new dataType [arraySize]
+
+        int[] numbers = new int[5];
+        //storing values in the array: index
+        numbers[0] = 10;
+        numbers[1] = 20;
+
+        //Accessing elements in the array and printing them
+        System.out.println("Element at index 0:" + numbers[0]);
+
+
+
     }
 }
 
