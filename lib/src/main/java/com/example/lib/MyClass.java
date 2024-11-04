@@ -113,6 +113,17 @@ public class MyClass {
         //Accessing elements in the array and printing them
         System.out.println("Element at index 0:" + numbers[0]);
 
+        //For each loop for arrays are useful
+
+        for (int numberElement: numbers) {
+            System.out.println(numberElement);
+        }
+
+        // Multi dimensional array: is an array of arrays
+        //Syntax of a two dimentional arrays
+        // dataType[][] arrayName = new dataType[rows][columns];
+        
+
 
 
     }
